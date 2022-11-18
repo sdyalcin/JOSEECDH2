@@ -1,15 +1,26 @@
 PODS:
-  - JOSEECDH2 (0.1.0)
+  - CryptoSwift (1.4.3)
+  - JOSEECDH2 (0.1.0):
+    - CryptoSwift (~> 1.4.0)
+    - JOSESwift (~> 1.8)
+  - JOSESwift (1.8.1)
 
 DEPENDENCIES:
   - JOSEECDH2 (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - JOSESwift
 
 EXTERNAL SOURCES:
   JOSEECDH2:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JOSEECDH2: f98427796ab2c80501ad82f2307d26d04295c0cd
+  CryptoSwift: a0799ee936271bd2253a006f1e4523df21845000
+  JOSEECDH2: 17335845ac3cdb8a560bfab0ada6a192703190ec
+  JOSESwift: 49c6e4497e061e085b9680b84b8cd6b5b64329bd
 
 PODFILE CHECKSUM: 37aa075a90f8584f16febe762d776c84e2b6e180
 

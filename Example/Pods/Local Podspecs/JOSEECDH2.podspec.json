@@ -12,11 +12,19 @@
     "Deniz Yalcin": "sdyalcin@gmail.com"
   },
   "source": {
-    "git": "https://github.com/sdyalcin Yalcin/JOSEECDH2.git",
+    "git": "https://github.com/sdyalcin/JOSEECDH2.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "JOSEECDH2/Classes/**/*"
+  "source_files": "JOSEECDH2/Classes/**/*",
+  "dependencies": {
+    "JOSESwift": [
+      "~> 1.8"
+    ],
+    "CryptoSwift": [
+      "~> 1.4.0"
+    ]
+  }
 }
