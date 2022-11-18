@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JOSEECDH2'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Fork from @ MtFancy JOSEECDH2 Swift library.'
 
 # This description is used to generate tags and improve search results.
