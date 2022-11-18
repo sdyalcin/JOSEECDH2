@@ -1,0 +1,6 @@
+framework module JOSEECDH2 {
+  umbrella header "JOSEECDH2-umbrella.h"
+
+  export *
+  module * { export * }
+}
